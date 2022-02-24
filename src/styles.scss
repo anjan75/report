@@ -1,4 +1,136 @@
-/* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// /* You can add global styles to this file, and also import other style files */
+// @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+// @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+// *{
+//     margin: 0px;
+//     padding: 0px;
+//     font-family: 'Alice', serif;
+
+// }
+// html, body { height: 100%; }
+// body { 
+//     font-family: 'Alice', serif;
+//     background-color: antiquewhite;
+//  }
+// .brand{
+// color: #429904;
+// }
+// .sub_brand{
+// color: #b2abab;
+// }
+// app-header{
+//     div.header{
+//         width: 100%;
+//         height: 60px;
+//         background-color: black;
+//         color: white;
+//         div.header_container{
+//             div.header_content{
+//                 padding-top: 7px;
+//                 font-size: 23px;
+//                 div.brand_menu{
+//                 display: inline-flex;
+//                 span.brand_area{
+//                     padding: 10px 0 0 0;
+//                     a{
+//                         text-decoration: none;
+//                     }
+//                 }
+//             }
+//             }
+            
+//         }
+//     }
+// }
+
+// div.page_container{
+//     margin: 50px 100px;
+//     padding: 0px 20px;
+// }
+// mat-card{
+//     font-family: inherit !important;
+//     width: 20em;
+//     height: 20em;
+// }
+// mat-card span{
+//     display: inline-block;
+//      width: 70%;
+//      word-break: break-word;
+// }
+// div.page_container{
+//     div.header_button{
+//         text-align: right;
+//         margin-right: 45px;
+//     }
+// }
+// .icon-delete{
+//     color: #ff0000;
+// }
+// .icon-add{
+//     color: #2d08f6;
+// }
+// .marginCalc{
+//     margin-left: calc(58% - 400px) !important;
+// }
+// .btn-close{
+//     position: relative !important;
+//     margin: -10px 0 0 96% !important;
+// }
+// .dialog-actions{
+//     position: relative !important;
+
+// }
+// .btn-ok{
+//     position: inherit !important;
+//     margin-right: calc(100% - 146px) !important;
+// }
+// .mat-h1, .mat-headline, .mat-typography h1{
+//     font-family: inherit !important;
+// }
+// .dialog-title{
+//     margin: -36px 0 0 0 !important;
+// }
+// .mat-form-field-appearance-outline .mat-form-field-flex{
+//     margin-top: 0.75em !important;
+// }
+// app-root{
+//     app-test{
+//         div.page_container{
+//             div.ng-star-inserted{
+//                 mat-card.mat-card.mat-focus-indicator.ng-star-inserted{
+//                     margin: 0 0 12px 0 !important;
+//                     // background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00);
+//                 }
+//             }
+//         }
+//     }
+// }
+// div.cardsLoop{
+//     display: flex;
+// }
+// div.cardsLoop,.col-3,.col{
+//     position: relative;
+//     width: 100%;
+//     min-height: 1px;
+//     padding-right: 12px;
+//     padding-left: 12px;
+// }
+// .col{
+//     flex-basis: 0;
+//     flex-grow: 1;
+//     max-width: 100%;
+//     &-3 {
+//         flex: 0 0 100%;
+//         max-width: 100%;
+//     }
+// }
+// div.cardsLoop{
+//     mat-card{
+//         margin-right: 20px;
+//     }
+// }
+// div.cardsLoop{
+//     img{
+//         border-radius: 50%;
+//     }
+// }

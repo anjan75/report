@@ -1,0 +1,29 @@
+<div class="header_model">
+    <form [formGroup]="createCardForm" autocomplete="off">
+        <button mat-icon-button class="btn-close" (click)="closeModel()">
+            <mat-icon>close</mat-icon>
+        </button>
+        <h1 mat-dialog-title class="dialog-title">New Card Creation</h1>
+        <hr>
+        <div mat-dialog-content>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Enter Card Name</mat-label>
+                <input matInput placeholder="Card Name Required" required formControlName="cardTitle">
+                <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+                <!-- <mat-hint>Hint</mat-hint> -->
+                <mat-error *ngIf="f.cardTitle.errors?.required">please enter care name</mat-error>
+            </mat-form-field>
+        </div>
+        <hr>
+        <div mat-dialog-actions class="dialog-actions">
+            <button type="submit" class="btn-ok" mat-raised-button (click)="onConfirm()" color="primary">
+                OK
+            </button>
+            <button mat-raised-button (click)="onDismiss()" color="warn">
+                Cancel
+            </button>
+        </div>
+    </form>
+
+</div>

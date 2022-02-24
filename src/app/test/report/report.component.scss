@@ -1,0 +1,47 @@
+mat-card.outLine{
+    top: 20px;
+    left: 20px;
+    border-top: solid 4px #027e72;
+    width: 90%;
+}
+mat-card-title.title{
+    margin-left: 78%;
+}
+i.search, .zoom{
+    position: absolute;
+    margin-left: 10px;
+}
+i.zoom{
+    margin-left: 100px;
+}
+mat-card-subtitle.subHeader{
+    font-weight: bolder;
+    color: black;
+    font-size: large;
+}
+* {
+    box-sizing: border-box;
+  }
+  /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 34%;
+  }
+  
+  /* Clear floats after the columns */
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  div.column {
+    margin-bottom: 10px;
+  }
+  mat-label {
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+  }
+  i,svg{
+      cursor: pointer;
+  }

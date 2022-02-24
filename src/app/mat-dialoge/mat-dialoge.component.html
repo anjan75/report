@@ -1,0 +1,17 @@
+<button mat-icon-button class="btn-close" (click)="closeModel()">
+    <mat-icon>close</mat-icon>
+</button>
+<h1 mat-dialog-title class="dialog-title">{{title}}</h1>
+<hr>
+<div mat-dialog-content>
+    <span>{{message}}</span>
+</div>
+<hr>
+<div mat-dialog-actions class="dialog-actions">
+    <button type="submit" class="btn-ok" mat-raised-button (click)="onConfirm()" color="primary">
+        OK
+    </button>
+    <button mat-raised-button (click)="onDismiss()" color="warn">
+        Cancel
+    </button>
+</div>

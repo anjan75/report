@@ -1,0 +1,41 @@
+<div class="page_container">
+  <div class="header_button">
+    <button mat-icon-button (click)="addCard()" class="icon-add">
+      <mat-icon>add</mat-icon>
+      <span>Add Card</span>
+    </button>
+    <!-- <button mat-icon-button (click)="addCard()" class="icon-add">
+      <mat-icon>add</mat-icon>
+      <span>Add Smart Card</span>
+    </button> -->
+  </div>
+  <div *ngIf="cardsList.length > 0">
+    <mat-card *ngFor="let card of cardsList; let i = index">
+      <span>{{card}}</span>
+      <button mat-icon-button class="icon-delete marginCalc" (click)="deleteCard(i)">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </mat-card>
+  </div>
+  <!-- sample card data -->
+  <div class="cardsLoop col-3" *ngIf="cardsListSample.length > 0">
+    <mat-card *ngFor="let samnpleCard of cardsListSample; let i = index">
+      <span>{{samnpleCard.title}} id: {{samnpleCard.id}} </span>
+      <span>{{samnpleCard.firstName}}</span>
+      <!-- <button mat-icon-button class="icon-delete marginCalc" (click)="deleteCard(i)">
+        <mat-icon>delete</mat-icon>
+      </button> -->
+      <!-- <span>{{samnpleCard.img}}</span> -->
+      <img src="../../assets/images/sandeep.jpg" alt="" width="200px" height="230px">
+      <img src="../../assets/images/radha.jpg" alt="" width="200px" height="230px">
+      <img *ngif="samnpleCard.firstName=='monika'" src="../../assets/images/monika.jpeg" alt="" width="200px" height="230px">
+      <img *ngif="samnpleCard.firstName=='priyanka'" src="../../assets/images/priyanka.jpg" alt="" width="200px" height="230px">
+      <img *ngif="samnpleCard.firstName=='ganesh'" src="../../assets/images/ganesh.jpg" alt="" width="200px" height="230px">
+    </mat-card>
+  </div>
+  <!-- sample card data end -->
+  <!-- <div *ngIf="cardsList.length == 0">
+    <mat-card>No Cards to Display</mat-card>
+  </div> -->
+
+</div>
